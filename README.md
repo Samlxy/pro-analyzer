@@ -4,6 +4,12 @@ Next.js (App Router) + TypeScript + Tailwind dashboard for the **phy-analyzer** 
 
 > Sister repo: [`phy-analyzer`](../phy-analyzer) (Flask/Python backend).
 
+Start the backend first, then:
+```bash
+npm install
+npm run dev
+```
+
 ---
 
 ## 1. What this UI shows
