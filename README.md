@@ -1,5 +1,9 @@
 # pro-analyzer — Frontend
 
+<img width="1595" height="826" alt="pro_analyzer" src="https://github.com/user-attachments/assets/d509b884-bfe5-45c1-a7f4-c03f65fd3b46" />
+
+<img width="1595" height="826" alt="pro_analyzer_selections" src="https://github.com/user-attachments/assets/c024db8e-0c8d-4896-8322-9be4f75ea690" />
+
 Next.js (App Router) + TypeScript + Tailwind dashboard for the **phy-analyzer** betting prediction service.
 
 > Sister repo: [`phy-analyzer`](../phy-analyzer) (Flask/Python backend).
