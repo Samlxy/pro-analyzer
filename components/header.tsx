@@ -7,9 +7,11 @@ import { useEffect, useState } from "react";
 export function Header() {
   const { theme, setTheme } = useTheme();
   const [mounted, setMounted] = useState(false);
-  useEffect(() => setMounted(true), []);
-
-  const today = new Date().toLocaleDateString([], { weekday: "long", month: "long", day: "numeric" });
+  const [today, setToday] = useState("");
+  useEffect(() => {
+    setMounted(true);
+    setToday(new Date().toLocaleDateString([], { weekday: "long", month: "long", day: "numeric" }));
+  }, []);
 
   return (
     <header className="sticky top-0 z-30 border-b border-zinc-200 dark:border-zinc-800 bg-[rgb(var(--bg))]/80 backdrop-blur">
